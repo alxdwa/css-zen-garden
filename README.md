@@ -1,6 +1,6 @@
 # CSS Zen Garden #
 
-Redesigning the [CSS Zen Garden](http://www.csszengarden.com) webpage as a tool for practising CSS.
+Redesigning the [CSS Zen Garden](http://www.csszengarden.com) webpage as a tool for practising CSS. Background image (test3.svg) created using p5.js. 
 
 Day 1 results:
 
