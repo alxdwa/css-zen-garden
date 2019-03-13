@@ -1,0 +1,292 @@
+/* @keyframes shiftright {
+  from {left: 0px;}
+  to {left: 10px;}
+}
+@keyframes shiftleft {
+  from {left: 0px;}
+  to {left: -10px;}
+} */
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+.page-wrapper {
+  margin-top: 60px;
+
+}
+
+abbr {
+  text-decoration: none;
+}
+
+body {
+  background: url('test3.svg') rgb(247, 245, 241);
+  background-position-y: -15px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+a {
+  color: #0000FF;
+  font-weight: 400;
+  -webkit-transition: all 0.5s ease-out;
+}
+a:hover {
+  color: rgb(158, 158, 158);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+header {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  color: #0000FF;
+  padding: 10px 30px;
+  margin: 30px;
+  width: 40%;
+  border-color: #0000FF;
+  border-top-right-radius: 30px 30px;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;
+  
+
+  /* animation-timing-function: ease;
+  animation-name: shiftleft;
+  animation-duration:0.1s;
+  animation-fill-mode: forwards; */
+}
+
+
+header h1 {
+  text-shadow: 3px 3px #0000FF;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.5px #0000FF;
+  font-size: 3.3em; 
+}
+
+/* header:hover {
+  animation-timing-function: ease;
+  animation-name: shiftright;
+  animation-duration:0.1s;
+  animation-fill-mode: forwards;
+} */
+
+
+
+.summary {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 10px 20px;
+  margin: 30px;
+  margin-top: 40px;
+  width: 35%;
+  position: relative;
+  left: 8%;
+  border-top-right-radius: 30px 30px;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;
+}
+
+
+
+.preamble {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 10px 20px;
+  margin: 30px;
+  margin-top: 40px;
+  width: 42%;
+  position: relative;
+  left: 16%;
+  border-top-right-radius: 30px 30px;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;
+}
+
+
+
+
+.explanation {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 10px 20px;
+  margin: 30px;
+  margin-top: 50px;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  border-top-right-radius: 30px 30px;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 2s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;
+}
+
+.participation {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 10px 20px;
+  margin: 30px;
+  width: 50%;
+  border-top-right-radius: 30px 30px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 2.5s;
+	-webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+}
+
+.benefits {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 10px 20px;
+  margin: 30px;
+  margin-left: 20px;
+  width: 30%;
+  border-top-right-radius: 30px 30px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 3s;
+	-webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+}
+
+.requirements {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 10px 20px;
+  margin: 30px;
+  margin-top: 40px;
+  width: 60%;
+  position: relative;
+  left: 10%;
+  border-top-right-radius: 30px 30px;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 3.5s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;
+}
+
+footer {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 10px 20px;
+  margin: 30px;
+  width: auto;
+  position: absolute;
+  right: 80px;
+  margin-bottom: 100px;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 4s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;
+}
+
+.sidebar {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-shadow: 6px 6px #0000FF;
+  padding: 20px 20px;
+  margin: 20px;
+  width: 25%;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  border-bottom-left-radius: 30px 30px;
+  font-size: 0.8em;
+  -webkit-opacity: 0;
+  -webkit-animation-name: fadein;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-delay: 1s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: 1;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+  border-bottom: 1px solid #0000FF;
+  padding-bottom: 15px;
+  color: #EF2C00;
+}
+
+h1 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #0000FF;
+  padding-bottom: 10px;
+  font-size: 3em;
+  letter-spacing: 4px;
+}
+
+h2 {
+  color: #EF2C00;
+}
+
+ul, li {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  list-style-type: square;
+}
+
+ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+p[role=contentinfo] {
+  font-weight: 400;
+  border-top: 1px solid #0000FF;
+  padding-top: 20px;
+}
